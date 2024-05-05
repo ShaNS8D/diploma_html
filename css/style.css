@@ -725,8 +725,10 @@ flex-direction: column;
 
 /*=======================================*/
 /*POPUP*/
-.popup {
+.hidden {
 	display: none;
+}
+.popup {	
 	position: fixed;
 	width: 100vw;
 	height: 100vh;
@@ -747,6 +749,18 @@ flex-direction: column;
 	left: 0;
 	right: 0;
 	background-color: var(--color-back);
+}
+
+.popup-form::before {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: -1.75rem;
+	width: 1.2rem;
+	height: 1.2rem;
+	background-image: url('../svg/form-x.svg');
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
 .popup-title {
@@ -773,6 +787,7 @@ flex-direction: column;
 }
 
 .popup-radio {
+	padding-left: 1.5rem;
 	margin-bottom: 1.75rem;
 }
 
