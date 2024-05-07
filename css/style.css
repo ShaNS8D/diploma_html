@@ -662,7 +662,7 @@ flex-direction: column;
 /*=======================================*/
 /*POPUP*/
 .hidden {
-/*	display: none;*/
+	display: none;
 }
 .popup {	
 	position: fixed;
