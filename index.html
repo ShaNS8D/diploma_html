@@ -10,7 +10,7 @@
 <body>
   <div class="popup hidden" >
     <form id="popup" class="popup-form flex" name="popup" action="index.html" method="post">
-      <h2 class="section-title popup-title">ВАШ ФИДБЕК</h2>
+      <h2 class="section-title popup-title">ваш фидбек</h2>
       <label for="frequency_visits" class="popup-label">Как часто вы заходите на сайт?</label>
       <select class ="popup-select" name="frequency_visits" id="frequency_visits" placeholder="Почти каждый день">
         <option value="1">Почти каждый день</option>
@@ -31,19 +31,19 @@
       </div>
       <label class="popup-label" for="story">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</label>
       <textarea class="popup-textarea" id="story" name="story" placeholder="Может, больше рецептов?"></textarea>
-      <button class="popup-btn btn-reset" type="submit">ОТПРАВИТЬ</button>
+      <button class="popup-btn btn-reset" type="submit">отправить</button>
     </form>
   </div>
   <header class="header flex">
     <nav class="menu flex">
       <a class="logo" href="#"></a>
       <ul class="menu-list list-reset flex">        
-        <li class="menu-list-item"><a class="menu-list-link" href="#">ГЛАВНАЯ</a></li>
-        <li class="menu-list-item"><a class="menu-list-link" href="#">ПОСТЫ</a></li>
-        <li class="menu-list-item"><a class="menu-list-link" href="#">СТАТЬИ</a></li>
-        <li class="menu-list-item"><a class="menu-list-link" href="#">ТЕГИ</a></li>
-        <li class="menu-list-item"><a class="menu-list-link" href="#">ТЕМЫ</a></li>
-        <li class="menu-list-item"><a class="menu-list-link" href="#">КОНТАКТЫ</a></li>        
+        <li class="menu-list-item"><a class="menu-list-link" href="#">главная</a></li>
+        <li class="menu-list-item"><a class="menu-list-link" href="#">посты</a></li>
+        <li class="menu-list-item"><a class="menu-list-link" href="#">статьи</a></li>
+        <li class="menu-list-item"><a class="menu-list-link" href="#">теги</a></li>
+        <li class="menu-list-item"><a class="menu-list-link" href="#">темы</a></li>
+        <li class="menu-list-item"><a class="menu-list-link" href="#">контакты</a></li>        
       </ul>
       <div class="burger">
         <div class="burger-line"></div>
@@ -52,48 +52,62 @@
       </div>
     </nav>
     <div class="header-logo"></div>
-    <h1 class="header-title">БЛОГ О ТВОРЧЕСТВЕ, СПОРТЕ, И ОБРАЗЕ ЖИЗНИ</h1>
+    <h1 class="header-title">блог о творчестве, спорте, и образе жизни</h1>
   </header>
   <main class="main">
     <section class="trends">
-      <h2 class="section-title">СЕЙЧАС В ТРЕНДЕ</h2>
-      <ul class="trends-list list-reset flex">
-        <li class="trends-list-item trends-image1 flex">
+      <h2 class="section-title">сейчас в тренде</h2>
+      <div class="trends-list flex">
+        <article class="trends-list-item trends-image1 flex">
           <div class="trends-item flex">
-            <div class="trends-category flex">
-              <a class="trends-tag" href="#">LIFESTYLE</a>
-              <a class="trends-tag" href="#">INTERIOR</a>            
-            </div>
-            <a class="trends-title" href="#">СЕЙЧАС В ТРЕНДЕ: САД НА ПОДОКОННИКЕ</a>
-          </div>          
-        </li>
-        <li class="trends-list-item trends-image2 flex">
+            <ul class="trends-category list-reset flex">
+              <li class="trends-category-item flex">
+                <a class="trends-tag" href="#">lifestyle</a>
+              </li>
+              <li class="trends-category-item flex">
+                <a class="trends-tag" href="#">interior</a>            
+              </li>
+            </ul>
+            <h3><a class="trends-title" href="#">сейчас в тренде: сад на подоконнике</a></h3>
+          </div>  
+        </article>
+        <article class="trends-list-item trends-image2 flex">
           <div class="trends-item flex">
-            <div class="trends-category flex">
-              <a class="trends-tag" href="#">FOOD</a>            
-            </div>
-            <a class="trends-title" href="#">СЫРЫ НА КРАСИВЫХ КАРТИНКАХ ИЗ ИНТЕРНЕТА: КАКИЕ ОНИ НА ВКУС?</a>
+            <ul class="trends-category list-reset flex">
+              <li class="trends-category-item flex">
+                <a class="trends-tag" href="#">food</a>
+              </li>
+            </ul>
+            <h3><a class="trends-title" href="#">сыры на красивых картинках из интернета: какие они на вкус? </a></h3>
           </div>
-        </li>
-        <li class="trends-list-item trends-image3 flex">
+        </article>
+        <article class="trends-list-item trends-image3 flex">
           <div class="trends-item flex">
-            <div class="trends-category flex">
-              <a class="trends-tag" href="#">LIFESTYLE</a>
-              <a class="trends-tag" href="#">TRAVEL</a>
-            </div>
-            <a class="trends-title" href="#">СОБИРАЕМСЯ В ПЕРВЫЙ ПОХОД В ГОРЫ</a>
+            <ul class="trends-category list-reset flex">
+              <li class="trends-category-item flex">
+                <a class="trends-tag" href="#">lifestyle</a>
+              </li>
+              <li class="trends-category-item flex">
+                <a class="trends-tag" href="#">travel</a>            
+              </li>
+            </ul>
+            <h3><a class="trends-title" href="#">собираемся в первый поход в горы</a></h3>
           </div>
-        </li>
-        <li class="trends-list-item trends-image4 flex">
+        </article>
+        <article class="trends-list-item trends-image4 flex">
           <div class="trends-item flex">
-            <div class="trends-category flex flex">
-              <a class="trends-tag" href="#">FOOD</a>
-              <a class="trends-tag" href="#">HEALTH</a>
-            </div>
-            <a class="trends-title" href="#">СЕЙЧАС В ТРЕНДЕ: СКОЛЬКО ВИТАМИНА C В ЛИМОНАХ?</a>
+            <ul class="trends-category list-reset flex">
+              <li class="trends-category-item flex">
+                <a class="trends-tag" href="#">food</a>
+              </li>
+              <li class="trends-category-item flex">
+                <a class="trends-tag" href="#">health</a>            
+              </li>
+            </ul>
+            <h3><a class="trends-title" href="#">сейчас в тренде: сколько витамина c в лимонах?</a></h3>
           </div>
-        </li>        
-      </ul>      
+        </article>
+      </div>
     </section>
     <div class="container flex">
       <section class="articles flex">
@@ -102,11 +116,15 @@
         <article class="article flex">
           <img src="images/last-post1.jpg" alt="Берег моря. Человек" class="article-image">
           <div class="article-content flex">
-            <div class="article-category flex">
-              <a class="article-tag" href="#">TRAVEL</a>
-              <a class="article-tag" href="#">HEALTH</a>            
-            </div>
-            <h2 class="article-title"><a class="article-title-link" href="#">10 МЕСТ, РАДИ КОТОРЫХ СТОИТ ПРОСНУТЬСЯ НА РАССВЕТЕ</a></h2>
+            <ul class="article-category list-reset flex">
+              <li class="article-category-item flex">
+                <a class="article-tag" href="#">travel</a>
+              </li>
+              <li class="article-category-item flex">
+                <a class="article-tag" href="#">health</a>
+              </li>
+            </ul>
+            <h2 class="article-title"><a class="article-title-link" href="#">10 мест, ради которых стоит проснуться на рассвете</a></h2>
             <div class="article-wraper flex">
               <time class="article-date" datetime="2019-06-10">10 июня 2019</time>
               <span class="article-author">Неизвестный автор</span>
@@ -118,11 +136,15 @@
         <article class="article flex">
           <img src="images/last-post2.jpg" alt="Девушка занимается йогой" class="article-image">
           <div class="article-content flex">
-            <div class="article-category flex">
-              <a class="article-tag" href="#">HEALTH</a>
-              <a class="article-tag" href="#">LIFESTYLE</a>
-            </div>
-            <h2 class="article-title"><a class="article-title-link" href="#">ЙОГА ДЛЯ НАЧИНАЮЩИХ В ДОМАШНИХ УСЛОВИЯХ</a></h2>
+            <ul class="article-category list-reset flex">
+              <li class="article-category-item flex">
+                <a class="article-tag" href="#">health</a>
+              </li>
+              <li class="article-category-item flex">
+                <a class="article-tag" href="#">lifestyle</a>
+              </li>
+            </ul>
+            <h2 class="article-title"><a class="article-title-link" href="#">йога для начинающих в домашних условиях</a></h2>
             <div class="article-wraper flex">
               <time class="article-date" datetime="2019-06-10">10 июня 2019</time>
               <span class="article-author">Неизвестный автор</span>
@@ -134,10 +156,12 @@
         <article class="article flex">
           <img src="images/last-post3.jpg" alt="Девушка на музыкальном фестивале" class="article-image">
           <div class="article-content flex">
-            <div class="article-category flex">
-              <a class="article-tag" href="#">MUSIC</a>
-            </div>            
-            <h2 class="article-title"><a class="article-title-link" href="#">ЛУЧШИЕ МУЗЫКАЛЬНЫЕ ФЕСТИВАЛИ ЭТОГО ЛЕТА</a></h2>
+            <ul class="article-category list-reset flex">
+              <li class="article-category-item flex">
+                <a class="article-tag" href="#">music</a>
+              </li>
+            </ul>           
+            <h2 class="article-title"><a class="article-title-link" href="#">лучшие музыкальные фестивали этого лета</a></h2>
             <div class="article-wraper flex">
               <time class="article-date" datetime="2019-06-10">10 июня 2019</time>
               <span class="article-author">Неизвестный автор</span>
@@ -150,11 +174,15 @@
         <article class="article flex">
           <img src="images/last-post4.jpg" alt="Стол с накрытым обедом" class="article-image">
           <div class="article-content flex">
-            <div class="article-category flex">
-              <a class="article-tag" href="#">LIFESTYLE</a>
-              <a class="article-tag" href="#">FOOD</a>
-            </div>            
-            <h2 class="article-title"><a class="article-title-link" href="#">НАУКОЁМКИЙ ПОДХОД К КУЛИНАРИИ</a></h2>
+            <ul class="article-category list-reset flex">
+              <li class="article-category-item flex">
+                <a class="article-tag" href="#">lifestyle</a>
+              </li>
+              <li class="article-category-item flex">
+                <a class="article-tag" href="#">food</a>
+              </li>
+            </ul>
+            <h2 class="article-title"><a class="article-title-link" href="#">наукоёмкий подход к кулинарии</a></h2>
             <div class="article-wraper flex">
               <time class="article-date" datetime="2019-06-10">10 июня 2019</time>
               <span class="article-author">Неизвестный автор</span>
@@ -166,12 +194,18 @@
         <article class="article flex">
           <img src="images/last-post5.jpg" alt="Подушка на стуле" class="article-image">
           <div class="article-content flex">
-            <div class="article-category flex">
-              <a class="article-tag" href="#">LIFESTYLE</a>
-              <a class="article-tag" href="#">INTERIOR</a>
-              <a class="article-tag" href="#">ART</a>
-            </div>            
-            <h2 class="article-title"><a class="article-title-link" href="#">ДЕЛАЕМ МОДНЫЕ ПРИНТЫ НА ПОДУШКАХ ДЛЯ ИНТЕРЬЕРА</a></h2>
+            <ul class="article-category list-reset flex">
+              <li class="article-category-item flex">
+                <a class="article-tag" href="#">lifestyle</a>
+              </li>
+              <li class="article-category-item flex">
+                <a class="article-tag" href="#">interior</a>
+              </li>
+              <li class="article-category-item flex">
+                <a class="article-tag" href="#">art</a>
+              </li>
+            </ul>           
+            <h2 class="article-title"><a class="article-title-link" href="#">делаем модные принты на подушках для интерьера</a></h2>
             <div class="article-wraper flex">
               <time class="article-date" datetime="2019-06-10">10 июня 2019</time>
               <span class="article-author">Неизвестный автор</span>
@@ -182,39 +216,44 @@
       </section>
       <aside class="side">
         <div class="side-item">
-          <h3 class="side-item-title">НОВЫЕ ПОСТЫ</h3>
-          <ul class="post-list list-reset flex">
-            <li class="post post-image1">
+          <h3 class="side-item-title">новые посты</h3>
+          <div class="post-list flex">
+            <article class="post flex">
+              <img class="post-image" src="images/new-post1.jpg" alt="Берег моря. Человек">
               <div class="post-header flex">
                 <time class="post-date" datetime="2019-06-14">14 июня 2019</time>
-                <h3 class="post-name">10 МЕСТ, РАДИ КОТОРЫХ СТОИТ ПРОСНУТЬСЯ</h3>
+                <h3 class="post-name">10 мест, ради которых стоит проснуться</h3>
               </div>
-            </li>
-            <li class="post post-image2">
+            </article>
+            <article class="post flex">
+              <img class="post-image" src="images/new-post2.jpg" alt="Девушка занимается йогой">
               <div class="post-header flex">
                 <time class="post-date" datetime="2019-06-14">14 июня 2019</time>
-                <h3 class="post-name">ЙОГА ДЛЯ ДОМАШНИХ</h3>
+                <h3 class="post-name">йога для домашних</h3>
               </div>
-            </li>
-            <li class="post post-image3">
+            </article>
+            <article class="post flex">
+              <img class="post-image" src="images/new-post3.jpg" alt="Девушка на музыкальном фестивале">
               <div class="post-header flex">
                 <time class="post-date" datetime="2019-06-14">14 июня 2019</time>
-                <h3 class="post-name">КАК МЫ ПРЕВРАТИЛИ КЛАССНОЕ МЕСТО В БАЛКОН</h3>
+                <h3 class="post-name">как мы превратили классное место в балкон</h3>
               </div>
-            </li>
-            <li class="post post-image4">
+            </article>
+            <article class="post flex">
+              <img class="post-image" src="images/new-post4.jpg" alt="Стол с накрытым обедом">
               <div class="post-header flex">
                 <time class="post-date" datetime="2019-06-14">14 июня 2019</time>
-                <h3 class="post-name">КУЛИНАРНЫЙ ПОДХОД К НАУКЕ</h3>
+                <h3 class="post-name">кулинарный подход к науке</h3>
               </div>
-            </li>
-            <li class="post post-image5">
+            </article>
+            <article class="post flex">
+              <img class="post-image" src="images/new-post5.jpg" alt="Подушка на стуле">
               <div class="post-header flex">
                 <time class="post-date" datetime="2019-06-14">14 июня 2019</time>
-                <h3 class="post-name">ЛУЧШИЕ ПРИЧЕСКИ ДЛЯ РАСПУЩЕННЫХ ВОЛОС</h3>
+                <h3 class="post-name">лучшие прически для распущенных волос</h3>
               </div>
-            </li>
-          </ul>
+            </article>
+          </div>
         </div>
         <div class="side-item">
           <form class="search-form flex" id="search-form" action="index.html" name="search-form">
@@ -223,33 +262,49 @@
           </form>
         </div>
         <div class="side-item">
-          <h3 class="side-item-title">РАССЫЛКА</h3>
+          <h3 class="side-item-title">рассылка</h3>
           <div class="mailing">
             <form class="mailing-form flex" id="mailing-form">
               <input type="email" class="mailing-input" name="mailing" placeholder="Ваш email-адрес">
               <button class="mailing-btn btn-reset">
-                ПОДПИСАТЬСЯ
+                подписаться
               </button>
             </form>
           </div>
         </div>
         <div class="side-item">
-          <h3 class="side-item-title">ТЕГИ</h3>
-          <div class="tags flex">
-            <a href="#" class="tag-btn">FASHION</a>
-            <a href="#" class="tag-btn">INTERIOR</a>
-            <a href="#" class="tag-btn">LIFESTYLE</a>
-            <a href="#" class="tag-btn">ART</a>
-            <a href="#" class="tag-btn">MUSIC</a>
-            <a href="#" class="tag-btn">TRAVEL</a>
-            <a href="#" class="tag-btn">FOOD</a>
-            <a href="#" class="tag-btn">HEALTH</a>
-          </div>
+          <h3 class="side-item-title">теги</h3>
+          <ul class="tags list-reset flex">
+            <li class="tags-item flex">
+              <a class="tag-btn" href="#">fashion</a>
+            </li>
+            <li class="tags-item flex">
+              <a class="tag-btn" href="#">interior</a>
+            </li>
+            <li class="tags-item flex">
+              <a class="tag-btn" href="#">lifestyle</a>
+            </li>
+            <li class="tags-item flex">
+              <a class="tag-btn" href="#">art</a>
+            </li>
+            <li class="tags-item flex">
+              <a class="tag-btn" href="#">music</a>
+            </li>
+            <li class="tags-item flex">
+              <a class="tag-btn" href="#">travel</a>
+            </li>
+            <li class="tags-item flex">
+              <a class="tag-btn" href="#">food</a>
+            </li>
+            <li class="tags-item flex">
+              <a class="tag-btn" href="#">health</a>
+            </li>
+          </ul>
         </div>
         <div class="side-item">
-          <h3 class="side-item-title">ТЕМЫ</h3>
+          <h3 class="side-item-title">темы</h3>
           <ul class="categories flex list-reset">
-            <li class="category-item"><a href="#" class="category-link">Крамота<sup>12</sup></a></li>
+            <li class="category-item"><a href="#" class="category-link">Красота<sup>12</sup></a></li>
             <li class="category-item"><a href="#" class="category-link">Здоровье<sup>4</sup></a></li>
             <li class="category-item"><a href="#" class="category-link">Образ жизни<sup>145</sup></a></li>
             <li class="category-item"><a href="#" class="category-link">Музыка<sup>28</sup></a></li>
@@ -260,22 +315,21 @@
       </aside>      
     </div>
     <section class="shop">
-      <h2 class="section-title">НАШИ ИЗДЕЛИЯ</h2>
+      <h2 class="section-title">наши изделия</h2>
       <div class="cards flex">
         <article class="card flex">
           <img src="images/pillow-desk1.jpg" alt="Подушки" class="card-image desktop">
           <img src="images/pillow-tablet1.jpg" alt="Подушки" class="card-image tablet">
           <img src="images/pillow-mobile1.jpg" alt="Подушки" class="card-image mobile">
           <div class="card-content flex">
-            <h3 class="card-name">ПОДУШКИ НА ДИВАН</h3>
-            <p class="card-descr">Набор из двух подушек с модными принтами. Видео о создании 
-              <a href="#" class="card-content-link">здесь</a>.</p>
+            <h3 class="card-name">подушки на диван</h3>
+            <p class="card-descr">Набор из двух подушек с модными принтами. Видео о создании <a href="#" class="card-content-link">здесь</a>.</p>
             <div class="card-prace flex">
               <div class="prace-wraper flex">
                 <span class="old-prace">1000 ₽</span>
                 <span class="new-prace">800 ₽</span>
               </div>
-              <a href="#" class="card-btn flex">В МАГАЗИН</a>
+              <a href="#" class="card-btn flex">в магазин</a>
             </div>
           </div>
         </article>
@@ -284,14 +338,13 @@
           <img src="images/bunny-tablet2.jpg" alt="Зайчик" class="card-image tablet">
           <img src="images/bunny-mobile2.jpg" alt="Зайчик" class="card-image mobile">
           <div class="card-content flex">
-            <h3 class="card-name">КУКЛА "ЗАЙЧИК"</h3>
-            <p class="card-descr">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена 
-              <a href="#" class="card-content-link">весенняя серия постов</a> в блоге и несколько подкастов.</p>
+            <h3 class="card-name">кукла "зайчик"</h3>
+            <p class="card-descr">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a href="#" class="card-content-link">весенняя серия постов</a> в блоге и несколько подкастов.</p>
             <div class="card-prace flex">
               <div class="prace-wraper flex">
                 <span class="new-prace">3500 ₽</span>
               </div>
-              <a href="#" class="card-btn flex">В МАГАЗИН</a>
+              <a href="#" class="card-btn flex">в магазин</a>
             </div>
           </div>
         </article>
@@ -300,7 +353,7 @@
           <img src="images/photo-frame-tablet3.jpg" alt="Рамка" class="card-image tablet">
           <img src="images/photo-frame-mobile3.jpg" alt="Рамка" class="card-image mobile">
           <div class="card-content flex">
-            <h3 class="card-name">ШЕСТИУГОЛЬНАЯ РАМКА</h3>
+            <h3 class="card-name">шестиугольная рамка</h3>
             <p class="card-descr">Необычная рамка для украшения дома из видео 
               <a href="#" class="card-content-link">«Как сделать рамку из подручных средств за 30 минут»</a></p>
             <div class="card-prace flex">
@@ -308,7 +361,7 @@
                 <span class="old-prace flex">500 ₽</span>
                 <span class="new-prace">400 ₽</span>
               </div>              
-              <a href="#" class="card-btn flex">В МАГАЗИН</a>
+              <a href="#" class="card-btn flex">в магазин</a>
             </div>
           </div>
         </article>
@@ -316,11 +369,11 @@
     </section>
   </main>
   <footer class="footer flex">
-    <ul class="social flex list-reset">
-      <li class="social-item flex"><a href="#" class="social-link dribbble"></a></li>
-      <li class="social-item flex"><a href="#" class="social-link pinterest"></a></li>
-      <li class="social-item flex"><a href="#" class="social-link tumblr"></a></li>
-    </ul>
+    <address class="social flex">
+      <div class="social-item flex"><a href="#" class="social-link dribbble"></a></div>
+      <div class="social-item flex"><a href="#" class="social-link pinterest"></a></div>
+      <div class="social-item flex"><a href="#" class="social-link tumblr"></a></div>
+    </address>
     <span class="copyright flex">Copyright © 2009–2019 City Blog LLC.</span>   
   </footer>
 </body>
